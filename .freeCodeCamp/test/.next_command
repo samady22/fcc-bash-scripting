@@ -6,3 +6,10 @@ history -a
 touch questionnaire.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cd questionnaire.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+nano questionnaire.sh
