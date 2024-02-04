@@ -222,3 +222,11 @@ history -a
 echo $?
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+bad_command
+exit
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+bad_command
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
