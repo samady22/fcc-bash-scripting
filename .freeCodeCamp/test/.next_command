@@ -156,3 +156,18 @@ history -a
 help
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help if
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help expression
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help hash
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help [[ expression ]]
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
