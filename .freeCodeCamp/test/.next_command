@@ -249,3 +249,31 @@ history -a
 echo $?
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+[[ -n countdown.sh ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help test
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+find
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ -n countdown.sh ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ -n ... ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ -x countdown.sh ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
