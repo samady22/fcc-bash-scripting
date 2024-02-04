@@ -277,3 +277,6 @@ history -a
 echo $?
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help [[ expression ]]
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
