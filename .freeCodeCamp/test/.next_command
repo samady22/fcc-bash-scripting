@@ -402,3 +402,9 @@ history -a
 ./bingo.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+I
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+I=0
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
