@@ -411,3 +411,8 @@ history -a
 echo $I
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+((I++))
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
