@@ -4,9 +4,7 @@
 echo -e "\n~~ Fortune Teller ~~\n"
 #Array
 RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
-N=$(( RANDOM%6 ))
+N=$(( RANDOM%1 ))
 
-echo ${RESPONSES[5]}
+echo ${RESPONSES[$N]}
 
-
-echo $N
