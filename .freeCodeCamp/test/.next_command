@@ -425,3 +425,39 @@ history -a
 help let
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url origin https://github.com/samady/fcc-bash-scripting.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url origin https://github.com/samady22/fcc-bash-scripting.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url origin https://github.com/samady22/fcc-bash-scripting.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/samady22/fcc-bash-scripting.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
