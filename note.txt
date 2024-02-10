@@ -1,0 +1,23 @@
+Change the file mode to execute
+> chmod +x 'fileName'
+
+View your variables on shell using this command.
+> declare -p
+
+View the specific variable 
+> declare -p 'variable name'
+
+To calculate number in shell 
+> (( I+=20 ))
+
+Assign I value to J variable by adding 10
+> J=$(( I+10 ))
+
+Print the result of J
+> echo $J
+
+Print calculation 
+> echo $(( I+20 ))
+
+Get random number between 1-75
+> echo $(( RANDOM%75+1 ))
