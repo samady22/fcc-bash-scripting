@@ -620,3 +620,21 @@ history -a
 declare -p ARR
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+RESPONSES=["Yes" "No" "Maybe" "Outlook good" "Ask again later"]
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Ask again later")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
