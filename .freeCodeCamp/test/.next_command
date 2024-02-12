@@ -658,3 +658,9 @@ history -a
 ./fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./fortune
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
