@@ -1,16 +1,17 @@
 #!/bin/bash
-#Program to tell a persons fortune
+
+# Program to tell a persons fortune
 
 echo -e "\n~~ Fortune Teller ~~\n"
-#Array
-RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
-N=$(( RANDOM%6 ))
 
-GET_FORTUNE (){
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+N=$(( RANDOM % 6 ))
+
+GET_FORTUNE() {
   echo Ask a yes or no question:
+  read QUESTION
 }
 
 echo ${RESPONSES[$N]}
-
-
 GET_FORTUNE
+echo $QUESTION
