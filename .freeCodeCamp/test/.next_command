@@ -647,3 +647,8 @@ history -a
 help function
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+GEY_FORTUNE
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
